@@ -6,7 +6,10 @@
 
 <body>
     <header>
-       <h1>Paradise Highschool</h1>        
+       <h1>Paradise Highschool</h1>    
+       <img src="school-outside.jpg" alt="Outside of our school">
+       <img src="school-inside.jpg" alt="Inside of our school">
+       <img src="students-working.jpg" alt="Students working hard">
     </header>
   
     <nav>
@@ -34,26 +37,31 @@
     <style>
   h1 {
     font-family: 'Quicksand', sans-serif;
+    text-align: center;
   }
   h2 {
     font-family: 'Nunito', sans-serif;
   }
   p {
     font-family: 'Josefin Sans', sans-serif;
+    margin-right: 100;
   }
   nav {
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
     flex-direction: column;
   }
+  img {
+    height: 10rem;
+  }
 
 
   body {
+    background-color: ;
     display: grid;
-    grid: " h    h    h  " auto
-          " n    n    n  " auto
-          " m    m    m  " auto
-          " f    f    f  " auto 
+    grid: " h    h    h    h  " auto
+          " n    m    m    m  " auto
+          " f    f    f    f  " auto 
           / 1fr  5fr  1fr;
   }
 
