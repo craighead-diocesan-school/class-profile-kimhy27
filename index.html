@@ -6,10 +6,13 @@
 
 <body>
     <header>
-       <h1>Paradise Highschool</h1>    
+       <h1>Paradise Highschool</h1>
+       <div class="container">
        <img src="school-outside.jpg" alt="Outside of our school">
        <img src="school-inside.jpg" alt="Inside of our school">
        <img src="students-working.jpg" alt="Students working hard">
+       </div>
+       </header>
     </header>
   
     <nav>
@@ -25,7 +28,8 @@
             Our School
         </h2>
 
-        <p> school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. 
+        <p> 
+            Our school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. 
             We give our girls access to the resources they need to explore their world and develop into the people they want to be. Personal drive is celebrated here, and we like to give our students the opportunity to pursue any area that interests them.
         </p>
     </main>
@@ -38,11 +42,8 @@
   h1 {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    /* background-color: 6082b6; */
-    background-color: cornsilk;
-    /* color: white; */
-    color: 606c38;
-    font-size: xx-large;
+    color: lemonchiffon;
+    font-size: 5rem;
     font-weight: bold;
     }
  nav {
@@ -53,41 +54,48 @@
     }
   h2 {
     font-family: 'Nunito', sans-serif;
-    /* background-color: 4c61e6; */
-    background-color: 606c38;
+    background-color: 4c61e6;
     font-size: larger;
     color: white;
-    font-size: x-large;
+    font-size: 3rem;
+
   }
   p {
     font-family: 'Josefin Sans', sans-serif;
     margin-right: 100;
-    font-size: large;
+    font-size: 2rem;
     padding-left: 10%;
     padding-right:10%;
+    color: white;
   }
   nav {
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
     flex-direction: column;
+    padding-top: 20;
   }
   img {
     height: 10rem;
     justify-content: center;
+    border: 5px solid white;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
   a {
     text-decoration: none;
     color: black;
-    border: 1px solid black;
+    border: 2px solid white;
     border-radius: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
     height: 50;
     text-align: center;
+    font-size: larger;
     }
     a:hover {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
   }
 
 
@@ -100,10 +108,10 @@
           / auto auto auto; */
 
    display: grid;
-    grid: " h    h    h  " auto
+    grid: " .    h    .  " auto
           " n    n    m " auto
           " .    f    .  " auto
-          / auto auto auto;
+          / 2fr 3fr 2fr;
 
    /* display: grid;
     grid: " h    h    h " auto
@@ -112,8 +120,7 @@
           " .    f    . " auto
           / auto auto auto; */
 
-    /* background-color: lemonchiffon; */
-    background-color: 95bf74;
+    background-color: 6082b6;
   }
 
 
