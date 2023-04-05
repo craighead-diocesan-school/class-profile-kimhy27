@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,9 +10,9 @@
     <header>
        <h1>Paradise Highschool</h1>
        <div class="container">
-       <img src="school-outside.jpg" alt="Outside of our school">
-       <img src="school-inside.jpg" alt="Inside of our school">
-       <img src="students-working.jpg" alt="Students working hard">
+       <img src="school-outside.jpg" alt="Outside of our school" class="center">
+       <img src="school-inside.jpg" alt="Inside of our school" class="center>
+       <img src="students-working.jpg" alt="Students working hard" class="center">
        </div>
        </header>
     </header>
@@ -70,6 +72,13 @@
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
   a {
     text-decoration: none;
     color: black;
@@ -85,11 +94,10 @@
     flex-direction: column;
     padding-top: 20;
     margin-top: 20;
-        display: flex;
-    flex-direction: column;
     font-size: larger;
     padding: 0.5;
     }
+    
     a:hover {
     color: black;
     background-color: white;
@@ -127,4 +135,4 @@
   main   { grid-area: m; }
   footer { grid-area: f; }
     </style>
-
+</html>
